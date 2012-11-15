@@ -1,0 +1,23 @@
+{
+  "name": "numpack",
+  "version": "0.1.0",
+  "description": "Efficient number array packer",
+  "main": "main.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coffee-script": "",
+    "flour": "",
+    "mocha": "",
+    "should": ""
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ricardobeat/numpack.git"
+  },
+  "author": "Ricardo Tomasi",
+  "license": "ricardo.mit-license.org"
+}
