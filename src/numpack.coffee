@@ -41,4 +41,4 @@ numpack =
 if module?.exports?
     module.exports = numpack
 else
-    window.Roller = numpack
+    window.numpack = numpack
