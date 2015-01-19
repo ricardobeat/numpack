@@ -1,3 +1,4 @@
+should  = require 'should'
 numpack = require '../src/numpack.coffee'
 
 describe 'numpack', ->
@@ -9,7 +10,7 @@ describe 'numpack', ->
 
     it 'should compress stuff correctly', ->
         compacted = numpack.compact source
-        compacted.should.be.a 'string'
+        compacted.should.be.type 'string'
 
     it 'should expand stuff correctly', ->
         expanded = numpack.expand compacted

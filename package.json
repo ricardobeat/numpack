@@ -3,13 +3,12 @@
   "version": "0.1.2",
   "description": "Efficient number array packer",
   "main": "main.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "coffee-script": "",
-    "flour": "",
-    "mocha": "",
-    "should": ""
+    "coffee-script": "^1.8.0",
+    "flour": "^0.5.8",
+    "mocha": "^2.1.0",
+    "should": "^4.6.1"
   },
   "scripts": {
     "test": "node_modules/.bin/mocha"
